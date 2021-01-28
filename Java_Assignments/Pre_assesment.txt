@@ -1,0 +1,167 @@
+1)
+
+function double arrayvalid()
+{
+int org[8]={10,23,45,65,28,64};
+int key[5]={10,54,64,12,23,44};
+int output[];
+int found[];
+int notFound[];
+int x=0;
+int y=0;
+for(int i=0;i<=key.len();i++)
+	found=0;
+		for(int j=0;j<=org.len();j++){
+			if(key[i]==org[j]){
+				found=found+i;
+				print"found array=";
+				output[i]=found[x];
+				x++;
+				}
+				
+			else
+			{
+				Print"notFound array=\t\t";
+				output[i]=notFound[y];
+				y++;
+				}}}
+int main(){
+				
+		arrayvalid(output);
+		return 0;
+}
+
+
+2) 
+2.1)STRING LENGTH
+
+function strsize(input)
+{
+int lenght=0;
+while(input[length]!='/0'){
+print"length of the string";
+length++;
+}
+return strsize();
+}
+
+
+2.2)STRING REVERSE
+main()
+{
+char str[50];
+int i;
+int j;
+char temp;
+gets(str);
+i=0;
+j=strlen(str)-1;
+while(i<j)
+{
+temp=str[i];
+str[i]=str[j];
+str[j]=temp;
+i++;
+--j;
+}
+return str();
+}
+
+2.3)STRiNG SEARCH AND REPLACE
+
+function searchandreplace(char words,char old,char new)
+int l1=strlen(old);
+int l2=strlen(new);
+int i=0;
+int count=0;
+
+for(i=0;words[i]!=0;i++)
+{
+
+2.4) SUBSTRING
+
+function substring(int a,int b){
+string str="Welcome";
+int subString="";
+int size=str.length;
+
+if(a<0 || b>size)
+print"invalid";
+
+else
+int k=0;
+
+for(int i=a;i<b;i++)
+{
+subString=subString+str[i];
+k++
+}
+
+return subString();
+}
+
+
+
+3)
+
+function merge()
+{
+int a[]={a,b,c};	
+int b[]={1,2,3,4,5,6};
+int n1,n2;  	\\size of array
+int res;
+int i=0,j=0,k=0;
+while(i<n1 && j<n2)
+{
+res=a[i++];
+res=b[j++];
+while(i<n1)
+res=a[i++];
+while(j<n2);
+res=b[j++];
+main()
+n1=a.length()/a[0].length();
+n2=b.length()/b[0].length();
+res=n1+n2;
+return merge()
+}
+
+
+4)
+
+function count()
+string str[]={s,s,s,s,d,f,f,q,q,q,q};
+string result[]={s,d,f,q};
+
+int count=0;
+for(int i=0;i<result.length();i++)
+{
+if(result[i]==str[0])
+
+count=count+1;
+str++;
+}
+
+print(count.result[i]+result[i]);
+return count();
+}
+
+
+5)
+
+function count()
+string str[]={s,q,s,s,d,f,f,q,q,q,s};
+string result[]={s,d,f,q};
+
+int count=0;
+for(int i=0;i<result.length();i++)
+{
+if(result[i]==str[0])
+
+count=count+1;
+str++;
+}
+
+print(count.result[i]+result[i]);
+return count();
+}
